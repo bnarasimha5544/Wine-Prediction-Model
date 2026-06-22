@@ -1,4 +1,7 @@
 [core]
-    remote = wineremote
+    remote = s3remote
 ['remote "wineremote"']
     url = s3://mlops-demo-abhishek-dvc-bucket
+['remote "s3remote"']
+    url = s3://dvc-wine-data-storage-bnarasimha/dvcstore
+    profile = bnarasimha5544
